@@ -249,16 +249,16 @@ footer p {
 
 			.social li a:hover { opacity: 0.8; }
 
-			.social li.t a { background: url(../images/picons35.png) no-repeat; }
-			.social li.d a { background: url(../images/picons32.png) no-repeat; }
-			.social li.f a { background: url(../images/picons36.png) no-repeat; }
+			.social li.t a { background: url(../Images/picons35.png) no-repeat; }
+			.social li.d a { background: url(../Images/picons32.png) no-repeat; }
+			.social li.f a { background: url(../Images/picons36.png) no-repeat; }
 
 /* icons using iconic webfont */
 
 @font-face {
 	font-family: 'IconicStroke';
-	src: url("../fonts/iconic/iconic_stroke.eot");
-	src: local('IconicStroke'), url("../fonts/iconic/iconic_stroke.svg#iconic") format('svg'), url("../fonts/iconic/iconic_stroke.otf") format('opentype');
+	src: url("../Fonts/iconic/iconic_stroke.eot");
+	src: local('IconicStroke'), url("../Fonts/iconic/iconic_stroke.svg#iconic") format('svg'), url("../Fonts/iconic/iconic_stroke.otf") format('opentype');
 }
 
 .iconic:before {
@@ -1167,7 +1167,7 @@ label,
 		width: 8px;
 		border: 0;
 		text-indent: -9999px;
-		background: url(../images/close.png) no-repeat 4px 4px;
+		background: url(../Images/close.png) no-repeat 4px 4px;
 
 		opacity: .50;
 		filter: alpha(opacity=50);
