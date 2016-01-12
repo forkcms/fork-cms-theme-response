@@ -1,7 +1,7 @@
-{include:core/layout/templates/head.tpl}
+{include:Core/Layout/Templates/Head.tpl}
 
 <body id="home">
-	{include:core/layout/templates/header.tpl}
+	{include:Core/Layout/Templates/Header.tpl}
 
 	<div class="holder" id="introHolder">
 		<div id="intro" class="row">
@@ -119,11 +119,11 @@
 	</div>
 
 	<div class="holder" id="doormatHolder">
-		{include:core/layout/templates/doormat.tpl}
+		{include:Core/Layout/Templates/Doormat.tpl}
 	</div>
 
 	<div class="holder" id="footerHolder">
-		{include:core/layout/templates/footer.tpl}
+		{include:Core/Layout/Templates/Footer.tpl}
 	</div>
 
 	{* General Javascript *}
@@ -131,7 +131,7 @@
 		<script src="{$jsFiles.file}"></script>
 	{/iteration:jsFiles}
 
-	<script src="{$THEME_URL}/core/js/respond.min.js"></script>
+	<script src="{$THEME_URL}/Core/Js/respond.min.js"></script>
 
 	{* Site wide HTML *}
 	{$siteHTMLFooter}
