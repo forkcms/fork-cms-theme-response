@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<name>response</name>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<requirements>
-		<minimum_version>3.0.0</minimum_version>
+		<minimum_version>3.7.0</minimum_version>
 	</requirements>
 	<thumbnail>thumbnail.png</thumbnail>
 	<description><![CDATA[Response is a responsive theme made for Fork CMS. It is column based and easy to adjust the user's needs. A clean and simple theme to get started with Fork CMS and responsive webdesign.]]></description>
@@ -19,14 +19,14 @@
 	</authors>
 	<metanavigation supported="false" />
 	<templates>
-		<template label="Default" path="core/layout/templates/default.tpl">
+		<template label="Default" path="Core/Layout/Templates/Default.tpl">
 			<positions>
 				<position name="main" />
 				<position name="right" />
 				<position name="doormatLeft" />
 				<position name="doormatMiddle">
 					<defaults>
-						<widget module="blog" action="recent_comments" />
+						<widget module="Blog" action="RecentComments" />
 					</defaults>
 				</position>
 				<position name="doormatRight" />
@@ -35,7 +35,7 @@
 				[main,main,right],[doormatLeft,doormatMiddle,doormatRight]
 			</format>
 		</template>
-		<template label="Home" path="core/layout/templates/home.tpl">
+		<template label="Home" path="Core/Layout/Templates/Home.tpl">
 			<positions>
 				<position name="left" />
 				<position name="main" />
@@ -48,7 +48,7 @@
 				<position name="doormatLeft" />
 				<position name="doormatMiddle">
 					<defaults>
-						<widget module="blog" action="recent_comments" />
+						<widget module="Blog" action="RecentComments" />
 					</defaults>
 				</position>
 				<position name="DoormatRight" />

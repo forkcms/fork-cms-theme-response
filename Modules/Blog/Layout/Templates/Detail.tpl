@@ -42,7 +42,7 @@
 						<div id="comment-{$comments.id}" class="comment">
 							<div class="imageHolder">
 								{option:comments.website}<a href="{$comments.website}">{/option:comments.website}
-									<img src="{$FRONTEND_CORE_URL}/layout/images/default_author_avatar.gif" width="48" height="48" alt="{$comments.author}" class="replaceWithGravatar" data-gravatar-id="{$comments.gravatar_id}" />
+									<img src="{$FRONTEND_CORE_URL}/Layout/Images/default_author_avatar.gif" width="48" height="48" alt="{$comments.author}" class="replaceWithGravatar" data-gravatar-id="{$comments.gravatar_id}" />
 								{option:comments.website}</a>{/option:comments.website}
 							</div>
 							<div class="commentContent">
